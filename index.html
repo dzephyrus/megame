@@ -1,0 +1,1291 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>meGame</title>
+<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">    
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/style.scss">
+	<link rel="stylesheet" href="css/responsive.scss">
+	
+</head>
+
+<body>
+	<header>
+        <div class="w-100 d-none d-lg-block">
+            <div class="bg-white position-relative">
+                <img src="images/Rectangle.png" class=" position-absolute " style="width: 90%; height: 45%" alt="">
+                <div class="position-absolute w-25 " style=" background-color: #151EBB; right: 0; height: 45%"></div>
+                <div class="w-1080 mx-auto d-flex py-2">
+                    <div class="logo col-1 px-0 pt-1">
+                        <div class="mx-n1">
+                            <img src="images/icon/Group (1).svg" class="" alt="">
+                        </div>
+                    </div>
+                    <div class="col-11 pr-0">
+                        <div class="w-100 h-50 d-flex justify-content-end text-white">
+                            <div class="top-header-right d-flex align-items-start pt-1">
+                                <p class="text-white fs-12 pr-3"><strong>Tiếng Anh</strong></p>
+                                <p class="text-white fs-12"><strong>Thứ 3</strong>, 20/5/2020  12:30 (GMT + 7)</p>
+                                <ul class="social-networks d-flex mt-n1 pl-2">
+                                    <li><a href="https://www.facebook.com/NongNghiepVietNamOnline/" rel="nofollow" target="_blank"><i class="fab fa-facebook-f text-white fs-12 px-2"></i></a></li>
+                                    <li><a href="https://plus.google.com/share?url=https://nongnghiep.vn/" rel="nofollow" target="_blank"><i class="fab fa-twitter text-white fs-12 px-2"></i></a></li>
+                                    <li><a href="https://twitter.com/share?original_referer=http://nongnghiep.vn" rel="nofollow" target="_blank"><i class="fab fa-youtube text-white fs-15 px-2"></i></a></li>    
+                                </ul>
+                                <p class="weather d-flex align-items-start">
+                                    <span class="split text-light mt-n2">❘</span>
+                                    <span class="city text-light fs-12 pl-2 pr-3">Hà Nội</span>
+                                    <span class="tempt text-light fs-12 font-weight-bold">34°C</span>
+                                    <span class="text-white fs-12">/<span style="margin-left: 3px;" class="humidity text-light">57%</span></span>
+                                    <img src="http://openweathermap.org/img/w/04d.png" class="icon-weather" style="width: 20px;">
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w-100 h-50 d-flex justify-content-end align-items-center">
+                            <div class="col-11 pr-0 pt-1">
+                                <div class="px-0 d-flex align-items-center pt-1 float-left">
+                                    <ul class="d-flex main-menu text-uppercase ">
+                                        <a href=""><li class="main-menu-item active">
+                                            <span class="">home</span>
+                                        </li></a>
+                                        <a href=""><li class="main-menu-item"><span>news</span></li></a>
+                                        <a href=""><li class="main-menu-item"><span>reviews</span></li></a>
+                                        <a href=""><li class="main-menu-item"><span>video</span></li></a>
+                                        <a href=""><li class="main-menu-item"><span>esports</span></li></a>
+                                        <a href=""><li class="main-menu-item"><span>đời sống</span></li></a>
+                                        <a href=""><li class="main-menu-item"><span>sự kiện</span></li></a>
+                                        <a href=""><li class="main-menu-item"><span>shop</span></li></a>
+                                    </ul>
+                                </div>
+                                <div class="px-0 d-flex justify-content-end float-right">
+                                    <div class="btn-group mt-1" style="z-index: 15">
+                                      <button type="button" class="btn shadow-none text-dark pr-0" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-search text-orange fs-20"></i>
+                                      </button>
+                                      <div class="dropdown-menu dropdown-menu-right shadow-none bg-transparent border-0" style="width: 300px !important;">
+                                        <div class="input-group dropdown-item search-bar bg-transparent pl-5" style="top:-49px; right:-25px;">
+                                          <input type="text" class="form-control shadow-none" placeholder="..." aria-label="Recipient's username">
+                                          <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary" type="button" style="background-color: #FF3100"><i class="fas fa-search text-white fs-20"></i></button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="d-block d-lg-none ">
+				<div class="header bg-white d-flex align-items-center justify-content-between ">
+					<div class="col-7 col-sm-5 mx-auto">
+						<img src="images/logo.webp" alt="">
+					</div>
+<!--
+					<div class="">
+						<div class="dropdown">
+						  <button class="btn border-0 shadow-none px-0 text-uppercase" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Drop
+						  </button>
+						  <div class="dropdown-menu border-0 position-relative pt-0 mt-0" style="z-index: 10" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item text-dark font-weight-normal" href="#">Action</a>
+							<a class="dropdown-item text-dark font-weight-normal" href="#">Another action</a>
+							<a class="dropdown-item text-dark font-weight-normal" href="#">Something else here</a>
+						  </div>
+						</div>
+					</div>
+-->
+					
+				</div>
+  <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+  <label for="openSidebarMenu" class="sidebarIconToggle">
+    <div class="spinner diagonal part-1"></div>
+    <div class="spinner horizontal"></div>
+    <div class="spinner diagonal part-2"></div>
+  </label>
+  <div id="sidebarMenu" style="z-index: 2">
+    <ul class="sidebarMenuInner">
+      <li>công luận 24h</li>
+<!--
+      <li>
+	  	<div class="dropdown">
+  <button class="btn dropdown-toggle border-0 shadow-none px-0 text-uppercase" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu border-0 position-relative pt-0 mt-0" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item text-dark font-weight-normal" href="#">Action</a>
+    <a class="dropdown-item text-dark font-weight-normal" href="#">Another action</a>
+    <a class="dropdown-item text-dark font-weight-normal" href="#">Something else here</a>
+  </div>
+</div>
+	  </li>
+-->
+	  
+      <li class="active">
+								<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="d-flex justify-content-between text-dark font-weight-normal">NGÂN HÀNG<em class="fa fa-chevron-down" aria-hidden="true"></em></a>
+							  <ul class="collapse list-unstyled sidebar-submenu" id="homeSubmenu">
+									<li class="sidebar-submenu_item ">
+										<a href="#" class="text-dark font-weight-normal">Home 1</a>
+									</li>
+									<li>
+										<a href="#" class="text-dark font-weight-normal">Home 2</a>
+									</li>
+									<li>
+										<a href="#" class="text-dark font-weight-normal">Home 3</a>
+									</li>
+							  </ul>
+							</li>
+      <li><a href="https://twitter.com/plavookac" class="text-dark font-weight-normal" target="_blank">Twitter</a></li>
+      <li><a href="https://www.youtube.com/channel/UCDfZM0IK6RBgud8HYGFXAJg" class="text-dark font-weight-normal" target="_blank">YouTube</a></li>
+      <li><a href="https://www.linkedin.com/in/plavookac/" class="text-dark font-weight-normal" target="_blank">Linkedin</a></li>
+    </ul>
+  </div>
+  					<div class="d-flex justify-content-end position-fixed " style="z-index: 11; right: 0">
+						<div class="btn-group mt-1" style="z-index: 15">
+						  <button type="button" class="btn shadow-none text-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i class="fas fa-search"></i>
+						  </button>
+						  <div class="dropdown-menu dropdown-menu-right shadow-none" style="width: 345px!important; left: -184px!important;">
+							<div class="input-group dropdown-item bg-white">
+  <input type="text" class="form-control shadow-none" placeholder="..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary" type="button">tìm kiếm</button>
+  </div>
+</div>
+						  </div>
+						</div>
+					</div>
+			</div>
+    </header>
+    <article class="bg-white pt-5 pt-md-0 px-md-0 container-fluid overflow-hidden">
+        <div class="position-absolute w-100" style="z-index: 0">
+                <img src="images/backbanner.png"  alt="">
+            </div>
+        <div class="position-relative ">
+            <div class="w-1142 mx-auto position-relative bg-white" style=" z-index: 2; margin-top: 300px">
+                <div class="row no-gutters">
+                    <div class="w-1080 bg-white mx-auto">
+                <div class="row mt-3 px-xl-3">
+                    <div class="d-flex flex-wrap  px-xl-0">
+                        <div class="w-100 line-dash text-white fs-10 ">'</div>
+                                <div class="col-xl-3 col-lg-4 col-md-12 px-0 ml-3 ">
+                                    <div class="mini-news mx-xl-n3 pr-3 d-flex flex-wrap  border-right">
+                                        <h3 class="text-uppercase px-3 px-md-0 d-flex text-orange  font-weight-bold pb-3"><div class="section-title mr-2"></div>Trending now</h3>
+                                        <div class="d-flex mini-news_item col-md-6 col-lg-12 px-0">
+                                            <div class="col-5 px-0 d-none d-md-block">
+                                                <p class="overflow-hidden position-relative mb-0">
+                                                    <a href="" class="thumb-item thumb-5x3">
+                                                        <img src="https://znews-photo.zadn.vn/w480/Uploaded/dqvpxpck/2020_05_21/E_200_Exclusive_IMGP1234.jpg" class="" alt="...">
+                                                    </a>
+                                                    <span class="position-absolute text-white pic-number d-flex justify-content-center align-items-center p-2 fixed-bottom">
+                                                      <span class="mx-auto d-flex align-items-center fs-18">25</span>
+                                                  </span>
+                                                </p>
+                                            </div>
+                                            <div class="col-7 pr-md-0 pl-0 pl-md-2 ml-1">
+                                                <a href="" class="font-weight-bold fs-14 fix-text3"><span>Xe cứu thương kẹt giữa dòng phương tiện trong mưa</span> <span class="fs-12 text-black d-inline-flex pl-2"><img src="images/icon/messenger-orange.svg" class="col-3 px-0 pt-1" alt=""><span class="col-9 ml-n2">12</span></span></a>
+                                                
+                                            </div>
+                                            <div class="col-5 px-0 d-block d-md-none">
+                                                <p class="overflow-hidden position-relative mb-0">
+                                                    <a href="" class="thumb-item thumb-5x3">
+                                                        <img src="https://znews-photo.zadn.vn/w480/Uploaded/dqvpxpck/2020_05_21/E_200_Exclusive_IMGP1234.jpg" class="" alt="...">
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mini-news_item col-md-6 col-lg-12 px-0">
+                                            <div class="col-5 px-0 d-none d-md-block">
+                                                <p class="overflow-hidden position-relative mb-0">
+                                                    <a href="" class="thumb-item thumb-5x3">
+                                                        <img src="images/Rectangle 65.png" class="" alt="...">
+                                                    </a>
+                                                </p>
+                                            </div>
+                                            <div class="col-7 pr-md-0 pl-0 pl-md-2 ml-1">
+                                                <a href="" class="font-weight-bold fs-14 fix-text3">Xe cứu thương kẹt giữa dòng phương tiện trong mưa</a>
+                                            </div>
+                                            <div class="col-5 px-0 d-block d-md-none">
+                                                <p class="overflow-hidden position-relative mb-0">
+                                                    <a href="" class="thumb-item thumb-5x3">
+                                                        <img src="images/Rectangle 38.png" class="" alt="...">
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mini-news_item col-md-6 col-lg-12 px-0">
+                                            <div class="col-5 px-0">
+                                                <p class="overflow-hidden position-relative mb-0">
+                                                    <a href="" class="thumb-item thumb-5x3">
+                                                        <img src="images/Rectangle 53 (1).png" class="" alt="...">
+                                                    </a>
+                                                </p>
+                                            </div>
+                                            <div class="col-7 pr-md-0 pl-0 pl-md-2 ml-1">
+                                                <a href="" class="font-weight-bold fs-14 fix-text3">Xe cứu thương kẹt giữa dòng phương tiện trong mưa</a>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mini-news_item col-md-6 col-lg-12 px-0">
+                                            <div class="col-5 px-0">
+                                                <p class="overflow-hidden position-relative mb-0">
+                                                    <a href="" class="thumb-item thumb-5x3">
+                                                        <img src="images/Rectangle 53.png" class="" alt="...">
+                                                    </a>
+                                                </p>
+                                            </div>
+                                            <div class="col-7 pr-md-0 pl-0 pl-md-2 ml-1">
+                                                <a href="" class="font-weight-bold fs-14 fix-text3">Xe cứu thương kẹt giữa dòng phương tiện trong mưa</a>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mini-news_item col-md-6 col-lg-12 px-0">
+                                            <div class="col-5 px-0">
+                                                <p class="overflow-hidden position-relative mb-0">
+                                                    <a href="" class="thumb-item thumb-5x3">
+                                                        <img src="https://znews-photo.zadn.vn/w480/Uploaded/dqvpxpck/2020_05_21/E_200_Exclusive_IMGP1234.jpg" class="" alt="...">
+                                                    </a>
+                                                </p>
+                                            </div>
+                                            <div class="col-7 pr-md-0 pl-0 pl-md-2 ml-1">
+                                                <a href="" class="font-weight-bold fs-14 fix-text3">Xe cứu thương kẹt giữa dòng phương tiện trong mưa</a>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mini-news_item col-md-6 col-lg-12 px-0">
+                                            <div class="col-5 px-0">
+                                                <p class="overflow-hidden position-relative mb-0">
+                                                    <a href="" class="thumb-item thumb-5x3">
+                                                        <img src="images/Rectangle 65 (2).png" class="" alt="...">
+                                                    </a>
+                                                </p>
+                                            </div>
+                                            <div class="col-7 pr-md-0 pl-0 pl-md-2 ml-1">
+                                                <a href="" class="font-weight-bold fs-14 fix-text3">Xe cứu thương kẹt giữa dòng phương tiện trong mưa</a>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mini-news_item col-md-6 col-lg-12 px-0">
+                                            <div class="col-5 px-0">
+                                                <p class="overflow-hidden position-relative mb-0">
+                                                    <a href="" class="thumb-item thumb-5x3">
+                                                        <img src="images/Rectangle 65 (1).png" class="" alt="...">
+                                                    </a>
+                                                </p>
+                                            </div>
+                                            <div class="col-7 pr-md-0 pl-0 pl-md-2 ml-1">
+                                                <a href="" class="font-weight-bold fs-14 fix-text3">Xe cứu thương kẹt giữa dòng phương tiện trong mưa</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        <div class="col-lg-8 col-xl-6 col-12">
+                            <div class=" col-12 border-white border-right pr-0">
+                                <div class="card border-0 card-col6 position-relative">
+                                    <p class="overflow-hidden position-relative mb-0">
+                                        <a href="" class="thumb-item thumb-5x3">
+                                            <img src="images/Rectangle 63.png" class="" alt="...">
+                                        </a>
+                                        <span class="position-absolute text-white play-button d-flex justify-content-between align-items-center p-2">
+                                          <span class="mx-auto d-flex align-items-center"><img src="images/icon/picture-icon.svg" alt=""></span>
+                                      </span>
+                                    </p>
+                                </div>
+                                <div class="card-body px-3 py-3 px-md-0">
+                                    <a href=""><h4 class="card-title fix-text3 mb-sm-0 text-dark pb-2 ">Nhân chứng kể phút giải cứu học sinh bị cây phượng đè ở TP.HCM</h4></a>
+                                    <p class="fs-13 pt-1">Chiều tối 25/5, hàng nghìn phương tiện ở TP.HCM chen chúc, nhích từng mét dưới cơn mưa nặng hạt.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="col-6">
+                                    <p class="overflow-hidden position-relative mb-0">
+                                        <a href="" class="thumb-item thumb-5x3">
+                                            <img src="images/Rectangle 38.png" class="" alt="...">
+                                        </a>
+                                    </p>
+                                    <h5 class="pt-2"><a href="" class="fs-16">Chiều nay LQMB có trận đấu kinh điển</a></h5>
+                                </div>
+                                <div class="col-6">
+                                    <p class="overflow-hidden position-relative mb-0">
+                                        <a href="" class="thumb-item thumb-5x3">
+                                            <img src="https://znews-photo.zadn.vn/w210/Uploaded/bpivpbbp/2020_05_22/tin1thumb.jpg" class="" alt="...">
+                                        </a>
+                                    </p>
+                                    <h5 class="pt-2"><a href="" class="fs-16">Chiều nay LQMB có trận đấu kinh điển</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                                <div class="col-xl-3 col-md-6 d-none ml-n4 pr-0 d-xl-block">
+                                    <div class="border-left h-100 col-12 pr-2 mr-n2 ml-2">
+                                        <div class="border-white border-left border-right mr-n1">
+                                            <h3 class="text-uppercase px-3 px-md-0 d-flex text-orange  font-weight-bold pb-3"><div class="section-title mr-2"></div>Tin mới nhất</h3>
+                                            <div class="border-0 mini-news mr-n2 ">
+                                                <div class="mini-news_item">
+                                                    <p class="overflow-hidden position-relative mb-0">
+                                                        <a href="" class="thumb-item thumb-5x3">
+                                                            <img src="https://znews-photo.zadn.vn/w210/Uploaded/bpivpbbp/2020_05_22/tin1thumb.jpg" class="" alt="...">
+                                                        </a>
+                                                    </p>
+                                                    <h5 class="pt-2"><a href="" class="fs-16">Chiều nay LQMB có trận đấu kinh điển</a></h5>
+                                                </div>
+                                                <div class="mini-news_item">
+                                                    <p class="overflow-hidden position-relative mb-0">
+                                                        <a href="" class="thumb-item thumb-5x3">
+                                                            <img src="images/Rectangle 53.png" class="" alt="...">
+                                                        </a>
+                                                    </p>
+                                                    <h5 class="pt-2"><a href="" class="fs-16">Chiều nay LQMB có trận đấu kinh điển</a></h5>
+                                                </div>
+                                                <div class="mini-news_item">
+                                                    <p class="overflow-hidden position-relative mb-0">
+                                                        <a href="" class="thumb-item thumb-5x3">
+                                                            <img src="images/Rectangle 65 (2).png" class="" alt="...">
+                                                        </a>
+                                                    </p>
+                                                    <h5 class="pt-2"><a href="" class="fs-16">Chiều nay LQMB có trận đấu kinh điển</a></h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white w-100 position-relative">
+            <div class="w-1080 mx-auto bg-white">
+                <div class="d-flex py-4 mb-2">
+                            <div class="col-2 d-flex px-0">
+                                <div class="col-2 pl-1 pr-2 my-auto">
+                                    <img src="images/icon/trending-up 1.svg" alt="">
+                                </div>
+                                <span class="pl-1 fs-14 my-auto">Tin quan trọng:</span>
+                            </div>
+                            <div class="ml-n4">
+                                <button type="button" class="btn btn-outline-secondary mr-2">LMHT</button>
+                                <button type="button" class="btn btn-outline-secondary mr-2">VCS Mùa Xuân</button>
+                                <button type="button" class="btn btn-outline-secondary mr-2">EVOS</button>
+                            </div>
+                            
+                            
+                        </div>
+                <div class="">
+				
+                    <div class=" px-xl-0 ">
+                        
+                        <div class="d-flex flex-wrap ">
+					        <div class="main-news-article pr-xl-3">
+                                <div class="pr-xl-4">
+                                    <div class="d-flex align-items-center pb-4 flex-wrap position-relative overflow-hidden">
+                                      <h3 class="text-uppercase px-3 px-md-0 d-flex text-orange  font-weight-bold"><div class="section-title mr-2"></div>Tin tức</h3>
+                                        <div class="svg-grid position-absolute w-100">
+                                          <svg width="81.5%" height="50" style="">
+                                            <polyline points="0 40, 120 40, 150 18, 240 18, 270 40, 978 40 "></polyline>
+                                          </svg>
+                                        </div>
+                                    </div>
+                                    <div class=" article-news ">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <p class="overflow-hidden position-relative mb-0 ">
+                                                    <a href="" class="thumb-item thumb-5x3">
+                                                        <img src="images/Rectangle 63.png" class="" alt="...">
+                                                    </a>
+                                                </p>
+                                            </div>
+                                            <div class="col-sm-12 col-12 pt-2">
+                                                <div class="">
+                                                    <a href="" class=""><h2 class="card-title fix-text article-news_title">Sổ hộ khẩu đã hoàn thành sứ mệnh của mình</h2></a>
+                                                    <p class="fs-16 fix-text3 mr-xl-n1 mr-lg-n2 mr-md-n2"> Có những hảo thủ mới chất lượng, nhưng GAM 2020 sẽ không có sự phục vụ của siêu sao đường trên Zeros.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card pr-lg-3 article-news  mr-lg-n5 mr-xl-0 rounded-0">
+                                        <div class="row no-gutters pr-md-2">
+                                            <div class="col-sm-5 col-5 pl-0 pr-md-1 ">
+                                                <p class="overflow-hidden position-relative mb-0">
+                                                    <a href="" class="thumb-item thumb-5x3">
+                                                        <img src="https://znews-photo.zadn.vn/w480/Uploaded/dqmblcvo/2020_05_27/93317222_10213383510302155_3126369714813534208_o.jpg" class="" alt="...">
+                                                    </a>
+                                                </p>
+                                            </div>
+                                            <div class="card-body col-sm-7 col-7 pl-sm-3 pl-1 ml-n1 py-0 pr-0">
+                                                <a href="" class=""><h5 class="card-title fix-text mr-xl-n2 mr-lg-n2 mr-md-n2 pt-lg-1 mb-xl-3 mb-lg-1 article-news_title mb-small-title px-3 px-md-0">Tổng thống Trump lên tiếng vụ người da đen bị cảnh sát đè chết</h5></a>
+                                                <p class="d-flex align-items-center fs-14 text-secondary pb-xl-2 pb-lg-2 pb-md-2 pb-2"><a href="" class="text-danger ">Sự kiện</a><span class="px-2">🞄</span><span>Hôm nay,</span> <span class="text-secondary  px-1">01/05/2020,</span> <span> 18:55</span> </p>
+                                                <p class="fs-14 fix-text3 mr-xl-n1 mr-lg-n2 mr-md-n2 d-none d-md-block">Có những hảo thủ mới chất lượng, nhưng GAM 2020 sẽ không có sự phục vụ của siêu sao đường trên Zeros</p>
+                                            </div>  
+                                        </div>
+                                    </div>
+                                    <div class="card pr-lg-3 article-news mr-lg-n5 mr-xl-0 rounded-0">
+                                        <div class="row no-gutters pr-md-2">
+                                            <div class="col-sm-5 col-5 pl-0 pr-md-1 ">
+                                                <p class="overflow-hidden position-relative mb-0">
+                                                    <a href="" class="thumb-item thumb-5x3">
+                                                        <img src="https://znews-photo.zadn.vn/w210/Uploaded/bpivpbbp/2020_05_26/trung4edited.jpg" class="" alt="...">
+                                                    </a>
+                                                </p>
+                                            </div>
+                                            <div class="card-body col-sm-7 col-7 pl-sm-3 pl-1 ml-n1 py-0 pr-0">
+                                                <a href="" class=""><h5 class="card-title fix-text mr-xl-n2 mr-lg-n2 mr-md-n2 pt-lg-1 mb-xl-3 mb-lg-1 article-news_title mb-small-title px-3 px-md-0">GAM eSports công bố đội hình toàn sao nhưng vắng Zeros</h5></a>
+                                                
+                                                <p class="d-flex align-items-center fs-14 text-secondary pb-xl-2 pb-lg-2 pb-md-2 pb-2"><a href="" class="text-danger ">Sự kiện</a><span class="px-2">🞄</span><span>Hôm nay,</span> <span class="text-secondary  px-1">01/05/2020,</span> <span> 18:55</span> </p>
+                                                <p class="fs-14 fix-text3 mr-xl-n1 mr-lg-n2 mr-md-n2 d-none d-md-block">Tấm huy chương đồng của Liên Quân Việt Nam tại SEA Games rõ ràng không thể làm hài lòng người hâm mộ nước nhà.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card pr-lg-3 article-news mr-lg-n5 mr-xl-0 rounded-0">
+                                        <div class="row no-gutters pr-md-2">
+                                            <div class="col-sm-5 col-5 pl-0 pr-md-1 ">
+                                                <p class="overflow-hidden position-relative mb-0">
+                                                    <a href="" class="thumb-item thumb-5x3">
+                                                        <img src="images/Rectangle 65 (2).png" class="" alt="...">
+                                                    </a>
+                                                </p>
+                                            </div>
+                                            <div class="card-body col-sm-7 col-7 pl-sm-3 pl-1 ml-n1 py-0 pr-0">
+                                                <a href="" class=""><h5 class="card-title fix-text mr-xl-n2 mr-lg-n2 mr-md-n2 pt-lg-1 mb-xl-3 mb-lg-1 article-news_title mb-small-title px-3 px-md-0">GAM eSports công bố đội hình toàn sao nhưng vắng Zeros</h5></a>
+                                                
+                                                <p class="d-flex align-items-center fs-14 text-secondary pb-xl-2 pb-lg-2 pb-md-2 pb-2"><a href="" class="text-danger ">Sự kiện</a><span class="px-2">🞄</span><span>Hôm nay,</span> <span class="text-secondary  px-1">01/05/2020,</span> <span> 18:55</span> </p>
+                                                <p class="fs-14 fix-text3 mr-xl-n1 mr-lg-n2 mr-md-n2 d-none d-md-block">Sau khi Dota 2 chỉ đạt tấm huy chương đồng, Liên Quân Mobile trở thành giấc mơ vàng lớn nhất của thể thao điện tử Việt Nam tại SEA Games 30.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                       
+					</div>
+					<div class="main-news-aside">
+						<div class="col-12 px-0">
+                            <div class="">
+                                <a href="" class="d-block"><img src="images/adv_01.png" class="thumb" alt=""></a>
+                                <div class="pt-4">
+                                <div class="d-flex align-items-center pb-3 flex-wrap position-relative overflow-hidden mt-2">
+                                  <h3 class="text-uppercase px-3 px-md-0 d-flex text-orange  font-weight-bold"><div class="section-title mr-2"></div><strong>xem nhiều</strong></h3>
+                                    <div class="svg-grid position-absolute w-100">
+                                      <svg>
+                                        <polyline points="0 40, 120 40, 150 18, 240 18, 270 40, 978 40 "></polyline>
+                                      </svg>
+                                    </div>
+                                  </div>
+                                <div class="aside-news">
+                                    <div class="article-news pb-3 mb-3">
+                                        <div class="">
+                                            <p class="overflow-hidden position-relative mb-0">
+                                            <a href="" class="thumb-item thumb-5x3">
+                                                <img src="images/Rectangle 53.png" class="" alt="...">
+                                            </a>
+                                            </p>
+                                        </div>
+                                        <div class="">
+                                            <p class="pt-2"><a href="" class="fs-18 font-weight-bold fix-text3">Trận đấu liên quân mobile lâu nhất 2020 </a></p>
+                                            <p class="d-flex align-items-center fs-14 text-secondary pb-xl-2 pb-lg-2 pb-md-2 pb-2 pt-3"><a href="" class="text-danger ">Tin tức</a><span class="px-2">🞄</span> <span> 18:55</span> </p>
+                                            <p class="fs-14">Trận đại chiến vừa qua của hai đội tuyển Team Flash và Cerberus tại VCS diễn ra vô cùng căng thẳng với những pha thi phá nhà cân não.</p>
+                                        </div>
+                                    </div>
+                                    <div class="article-news d-flex pb-3 mb-3">
+                                        <div class="col-5 pl-0 pr-1 border-right border-white">
+                                            <p class="overflow-hidden position-relative mb-0">
+                                                <a href="" class="thumb-item thumb-5x3">
+                                                    <img src="images/Rectangle 53.png" class="" alt="...">
+                                                </a>
+                                            </p>
+                                        </div>
+                                        <div class="col-7 pr-0 pl-2 pt-2">
+                                            <p class="fix-text3"><a href="" class="fs-14 font-weight-bold fix-text3">Trận đấu liên quân mobile lâu nhất 2020 asd asdas dá da sda da da sda asd á d </a></p>
+                                        </div>
+                                    </div>
+                                    <div class="article-news d-flex pb-3 mb-3">
+                                        <div class="col-5 pl-0 pr-1 border-right border-white">
+                                            <p class="overflow-hidden position-relative mb-0">
+                                                <a href="" class="thumb-item thumb-5x3">
+                                                    <img src="images/Rectangle 38 (1).png" class="" alt="...">
+                                                </a>
+                                            </p>
+                                        </div>
+                                        <div class="col-7 pr-0 pl-2 pt-2">
+                                            <p class="fix-text3"><a href="" class="fs-14 font-weight-bold fix-text3"   >Trận đấu liên quân mobile lâu nhất 2020 asd asdas dá da sda da da sda asd á d </a></p>
+                                        </div>
+                                    </div>
+                                    <div class="article-news d-flex pb-3 mb-3">
+                                        <div class="col-5 pl-0 pr-1 border-right border-white">
+                                            <p class="overflow-hidden position-relative mb-0">
+                                                <a href="" class="thumb-item thumb-5x3">
+                                                    <img src="images/Rectangle 65 (1).png" class="" alt="...">
+                                                </a>
+                                            </p>
+                                        </div>
+                                        <div class="col-7 pr-0 pl-2 pt-2">
+                                            <p class="fix-text3"><a href="" class="fs-14 font-weight-bold fix-text3"   >Trận đấu liên quân mobile lâu nhất 2020 asd asdas dá da sda da da sda asd á d </a></p>
+                                        </div>
+                                    </div>
+                                    <div class="article-news d-flex pb-3 mb-3">
+                                        <div class="col-5 pl-0 pr-1 border-right border-white">
+                                            <p class="overflow-hidden position-relative mb-0">
+                                                <a href="" class="thumb-item thumb-5x3">
+                                                    <img src="images/Rectangle 53.png" class="" alt="...">
+                                                </a>
+                                            </p>
+                                        </div>
+                                        <div class="col-7 pr-0 pl-2 pt-2">
+                                            <p class="fix-text3"><a href="" class="fs-14 font-weight-bold fix-text3"   >Trận đấu liên quân mobile lâu nhất 2020 asd asdas dá da sda da da sda asd á d </a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+							
+						</div>
+					</div>
+				</div>
+                    </div>
+                    
+				</div>
+            </div>
+        </div>
+		<div class="position-relative" style="background: linear-gradient(180deg, #FF7F00 0%, #FF0B0B 100%);
+transform: matrix(1, 0, 0, -1, 0, 0)">
+            <div class="position-absolute w-100 h-100" style="transform: matrix(1, 0, 0, -1, 0, 0)">
+                <img src="images/icon/XMLID 1.svg" class="h-100 w-100 pt-5 " alt="">
+            </div>
+              <div class="w-1080 px-3 px-xl-0 mx-auto pt-4" style="transform: matrix(1, 0, 0, -1, 0, 0)">
+<!--
+                  <div class="d-flex align-items-center py-3 flex-wrap">
+                      <h2 class="text-uppercase font-weight-bold d-flex text-white"><div class="section-title_white mr-2"></div>multimedia</h2>
+                      <div class="d-md-flex d-none align-items-center pl-xl-3 fs-18 flex-wrap">
+                          <a href="" class="px-2">Sản phẩm </a>
+                          &#10072;
+                          <a href="" class="px-2 ">Ứng dụng</a>
+                          &#10072;
+                          <a href="" class="px-2 ">Diễn đàn khoa học</a>
+                      </div>
+                  </div>
+-->
+                  <div class="d-flex align-items-center pb-3 flex-wrap position-relative overflow-hidden ">
+                          <h3 class="text-uppercase px-3 px-md-0 d-flex text-white col-4"><div class="section-title_white mr-2"></div>MULTIMEDIA</h3>
+                            <div class="svg-grid position-absolute w-100">
+                              <svg style="stroke:#FF8F4F">
+                                <polyline points="0 40, 120 40, 150 18, 220 18, 250 40, 978 40 "></polyline>
+                              </svg>
+                            </div>
+                              <div class="d-md-flex d-none align-items-center pl-xl-5 fs-18 flex-wrap  ">
+                                  <a href="" class="pr-5 text-white">Sản phẩm </a>
+                                  <a href="" class="pr-5 text-white">Ứng dụng</a>
+                                  <a href="" class="pr-5 text-white">Diễn đàn khoa học</a>
+                              </div>
+                        </div>
+                  <div class="row pt-2">
+                      <div class="col-md-8 px-0 px-sm-3">
+                          <p class="overflow-hidden position-relative mb-0">
+                            <a href="" class="thumb-item thumb-5x3">
+                                <img src="images/Rectangle 63.png" class="" alt="...">
+                            </a>
+                          </p>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="pl-xl-2">
+                              <div class="">
+                                  <h3 class="pt-4"><a href="" class="text-white">Ford đăng ký sáng chế hệ thống kiểm tra chất lượng không khí taxi</a></h3>
+                                  <p class="fs-14 py-3 text-white">
+                                      Lần đầu tiên Sở Công Thương TP.HCM tổ chức chương trình 60 ngày vàng khuyến mại, cho phép doanh nghiệp thực hiện khuyến mại lên đến 100% giá trị hàng hóa, dịch vụ.
+                                  </p>
+                                  <div class="d-flex">
+                                      <p class="fs-12 text-white"><i class="far fa-clock pr-1 "></i>16/1/2020</p> <p class="fs-12 text-white pl-2 d-flex w-75"><img src="images/icon/eye.svg" class="col-3 pr-4 " alt=""><span class="ml-n3">8.3k lượt xem</span></p>
+                                  </div>
+                                  
+                                  <div class="d-flex justify-content-end pt-5">
+                                      <a href="" class="d-block pl-2 ml-1"><p class="bg-secondary d-flex align-items-center justify-content-center rounded social-icon"><i class="fas fa-link text-white fs-13"></i></p></a>
+                                      <a href="" class="d-block pl-2 ml-1"><p class="bg-secondary d-flex align-items-center justify-content-center rounded social-icon"><i class="fas fa-bookmark text-white fs-13" ></i></p></a>     
+                                      <a href="" class="d-block pl-2 ml-1"><p class="bg-secondary d-flex align-items-center justify-content-center rounded social-icon"><i class="fab fa-facebook-f text-white fs-13"></i></p></a>     
+                                      <a href="" class="d-block pl-2 ml-1"><p class="bg-secondary d-flex align-items-center justify-content-center rounded social-icon"><i class="fab fa-twitter text-white fs-13"></i></p></a>     
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+				  <div class="grid-col3 py-4 position-relative">
+                      <div class="position-absolute w-100 d-flex justify-content-between">
+                          
+                      </div>
+                      <div class="d-flex flex-wrap mb-3 mb-md-0">
+                          <p class="overflow-hidden position-relative mb-0 col-5 col-md-12 px-0">
+                            <a href="" class="thumb-item thumb-5x3">
+                                <img src="images/Rectangle 65 (2).png" class="" alt="...">
+                            </a>
+                            <span class="position-absolute fixed-bottom">
+                                <span class="fs-14 float-right px-1 text-white bg-opacity">1:30</span>
+                            </span>  
+                          </p>  
+                          <a href="" class="d-block py-2 mini-video-title col-7 col-md-12 px-md-0 text-white fix-text3">Ông chủ CLB Italy thừa nhận mua Balotelli là sai lầm</a>
+                          <div class="d-flex">
+                              <p class="fs-12 text-white"><i class="far fa-clock pr-1 pt-1"></i>16/1/2020</p> <p class="fs-12 text-white pl-4 d-flex "><img src="images/icon/messenger.svg" class="col-3 px-0 pt-1" alt=""><span class="col-9 ml-n2">12</span></p>
+                          </div>
+                          
+                      </div>
+                      <div class="d-flex flex-wrap mb-3 mb-md-0">
+                          <p class="overflow-hidden position-relative mb-0 col-5 col-md-12 px-0">
+                            <a href="" class="thumb-item thumb-5x3">
+                                <img src="images/Rectangle 65 (1).png" class="" alt="...">
+                            </a>
+                            <span class="position-absolute fixed-bottom">
+                                <span class="fs-14 float-right px-1 text-white bg-opacity">1:30</span>
+                            </span>  
+                          </p>
+                          <a href="" class="d-block py-2 mini-video-title col-7 col-md-12 px-md-0 text-white fix-text3 font-weight-normal">Ông chủ CLB Italy thừa nhận mua Balotelli là sai lầm</a>
+                          <div class="d-flex">
+                              <p class="fs-12 text-white"><i class="far fa-clock pr-1 pt-1"></i>16/1/2020</p> <p class="fs-12 text-white pl-4 d-flex "><img src="images/icon/messenger.svg" class="col-3 px-0 pt-1" alt=""><span class="col-9 ml-n2">12</span></p>
+                          </div>
+                      </div>
+                      <div class="d-flex flex-wrap mb-3 mb-md-0">
+                          <p class="overflow-hidden position-relative mb-0 col-5 col-md-12 px-0">
+                            <a href="" class="thumb-item thumb-5x3">
+                                <img src="images/Rectangle 65.png" class="" alt="...">
+                            </a>
+                          </p>
+                          <a href="" class="d-block py-2 mini-video-title col-7 col-md-12 px-md-0 text-white fix-text3">Ông chủ CLB Italy thừa nhận mua Balotelli là sai lầm</a>
+                          <div class="d-flex">
+                              <p class="fs-12 text-white"><i class="far fa-clock pr-1 pt-1"></i>16/1/2020</p> <p class="fs-12 text-white pl-4 d-flex "><img src="images/icon/messenger.svg" class="col-3 px-0 pt-1" alt=""><span class="col-9 ml-n2">12</span></p>
+                          </div>
+                      </div>
+                      <div class="d-flex flex-wrap mb-3 mb-md-0">
+                          <p class="overflow-hidden position-relative mb-0 col-5 col-md-12 px-0">
+                            <a href="" class="thumb-item thumb-5x3">
+                                <img src="images/Rectangle 53.png" class="" alt="...">
+                            </a>
+                          </p>
+                          <a href="" class="d-block py-2 mini-video-title col-7 col-md-12 px-md-0 text-white fix-text3">Ông chủ CLB Italy thừa nhận mua Balotelli là sai lầm</a>
+                          <div class="d-flex">
+                              <p class="fs-12 text-white"><i class="far fa-clock pr-1 pt-1"></i>16/1/2020</p> <p class="fs-12 text-white pl-4 d-flex "><img src="images/icon/messenger.svg" class="col-3 px-0 pt-1" alt=""><span class="col-9 ml-n2">12</span></p>
+                          </div>
+                      </div>
+                      <div class="d-flex flex-wrap mb-3 mb-md-0">
+                          <p class="overflow-hidden position-relative mb-0 col-5 col-md-12 px-0 ">
+                            <a href="" class="thumb-item thumb-5x3">
+                                <img src="https://znews-photo.zadn.vn/w480/Uploaded/ofh_hmzpgazs/2020_05_14/96823972_546126216275170_7247665300915617792_n.jpg" class="" alt="...">
+                            </a>
+                          </p>
+                          <a href="" class="d-block py-2 mini-video-title col-7 col-md-12 px-md-0 text-white fix-text3">Ông chủ CLB Italy thừa nhận mua Balotelli là sai lầm</a>
+                          <div class="d-flex">
+                              <p class="fs-12 text-white"><i class="far fa-clock pr-1 pt-1"></i>16/1/2020</p> <p class="fs-12 text-white pl-4 d-flex "><img src="images/icon/messenger.svg" class="col-3 px-0 pt-1" alt=""><span class="col-9 ml-n2">12</span></p>
+                          </div>
+                      </div>
+                  </div>
+                
+			</div>
+             
+        </div> 
+        <div class="w-1080 mx-auto">
+                    <div class="pt-4 mt-2 d-flex flex-wrap">
+                        <div class=" main-news-article pr-xl-3">
+                            <div class="pr-xl-4">
+                                <div class="row mx-xl-n2">
+                                    <div class="col-4 mb-4 pb-2">
+                                        <div class="mx-n1">
+                                            <p class="overflow-hidden position-relative mb-0 col-5 col-md-12 px-0">
+                                                <a href="" class="thumb-5x3 thumb-item">
+                                                    <img src="https://znews-photo.zadn.vn/w480/Uploaded/oplukaa/2020_05_28/caf367feb0fc4aa213ed.jpg" alt="">
+                                                </a>
+                                                <span class="position-absolute text-white play-button d-flex justify-content-between align-items-center">
+                                                    <span class="mx-auto">&#9655;</span>
+                                                </span>
+                                                <span class="position-absolute fixed-bottom">
+                                                    <span class="fs-14 float-right px-1 text-white bg-opacity">1:30</span>
+                                                </span>
+                                            </p>
+                                            <a href="" class="fs-15 font-weight-bold d-block pt-md-2  col-7 col-md-12 px-md-0 pr-0 pb-1 fix-text3">
+                                                Nhiều cuộc gọi nhờ người tố CSGT Tân Sơn Nhất đòi 6,2 triệu rút đơn 
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 mb-4 pb-2">
+                                        <div class="<strong>mx-n1</strong>">
+                                            <p class="overflow-hidden position-relative mb-0 col-5 col-md-12 px-0">
+                                                <a href="" class="thumb-5x3 thumb-item">
+                                                    <img src="images/Rectangle 65 (2).png" alt="">
+                                                </a>
+                                                <span class="position-absolute text-white play-button d-flex justify-content-between align-items-center">
+                                                    <span class="mx-auto">&#9655;</span>
+                                                </span>
+                                                <span class="position-absolute fixed-bottom">
+                                                    <span class="fs-14 float-right px-1 text-white bg-opacity">1:30</span>
+                                                </span>
+                                            </p>
+                                            <a href="" class="fs-15 font-weight-bold d-block pt-md-2  col-7 col-md-12 px-md-0 pr-0 pb-1 fix-text3">
+                                                Nhiều cuộc gọi nhờ người tố CSGT Tân Sơn Nhấ
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 mb-4 pb-2">
+                                        <div class="mx-n1">
+                                            <p class="overflow-hidden position-relative mb-0 col-5 col-md-12 px-0">
+                                                <a href="" class="thumb-5x3 thumb-item">
+                                                    <img src="images/Rectangle 65.png" alt="">
+                                                </a>
+                                                <span class="position-absolute text-white play-button d-flex justify-content-between align-items-center">
+                                                    <span class="mx-auto">&#9655;</span>
+                                                </span>
+                                                <span class="position-absolute fixed-bottom">
+                                                    <span class="fs-14 float-right px-1 text-white bg-opacity">1:30</span>
+                                                </span>
+                                            </p>
+                                            <a href="" class="fs-15 font-weight-bold d-block pt-md-2  col-7 col-md-12 px-md-0 pr-0 pb-1 fix-text3">
+                                                Nhiều cuộc gọi nhờ người tố CSGT Tân Sơn Nhất đòi 6,2 triệu rút đơn 
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 mb-4 pb-2">
+                                        <div class="mx-n1">
+                                            <p class="overflow-hidden position-relative mb-0 col-5 col-md-12 px-0">
+                                                <a href="" class="thumb-5x3 thumb-item">
+                                                    <img src="images/Rectangle 38 (1).png" alt="">
+                                                </a>
+                                                <span class="position-absolute text-white play-button d-flex justify-content-between align-items-center">
+                                                    <span class="mx-auto">&#9655;</span>
+                                                </span>
+                                                <span class="position-absolute fixed-bottom">
+                                                    <span class="fs-14 float-right px-1 text-white bg-opacity">1:30</span>
+                                                </span>
+                                            </p>
+                                            <a href="" class="fs-15 font-weight-bold d-block pt-md-2  col-7 col-md-12 px-md-0 pr-0 pb-1 fix-text3">
+                                                Nhiều cuộc gọi nhờ người tố CSGT Tân Sơn Nhất đòi 6,2 triệu rút đơn 
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 mb-4 pb-2">
+                                        <div class="mx-n1">
+                                            <p class="overflow-hidden position-relative mb-0 col-5 col-md-12 px-0">
+                                                <a href="" class="thumb-5x3 thumb-item">
+                                                    <img src="images/Rectangle 65.png" alt="">
+                                                </a>
+                                                <span class="position-absolute text-white play-button d-flex justify-content-between align-items-center">
+                                                    <span class="mx-auto">&#9655;</span>
+                                                </span>
+                                                <span class="position-absolute fixed-bottom">
+                                                    <span class="fs-14 float-right px-1 text-white bg-opacity">1:30</span>
+                                                </span>
+                                            </p>
+                                            <a href="" class="fs-15 font-weight-bold d-block pt-md-2  col-7 col-md-12 px-md-0 pr-0 pb-1 fix-text3">
+                                                Nhiều cuộc gọi nhờ người tố CSGT Tân Sơn Nhất đòi 6,2 triệu rút đơn 
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 mb-4 pb-2">
+                                        <div class="mx-n1">
+                                            <p class="overflow-hidden position-relative mb-0 col-5 col-md-12 px-0">
+                                                <a href="" class="thumb-5x3 thumb-item">
+                                                    <img src="images/Rectangle 53 (1).png" alt="">
+                                                </a>
+                                                <span class="position-absolute text-white play-button d-flex justify-content-between align-items-center">
+                                                    <span class="mx-auto">&#9655;</span>
+                                                </span>
+                                                <span class="position-absolute fixed-bottom">
+                                                    <span class="fs-14 float-right px-1 text-white bg-opacity">1:30</span>
+                                                </span>
+                                            </p>
+                                            <a href="" class="fs-15 font-weight-bold d-block pt-md-2  col-7 col-md-12 px-md-0 pr-0 pb-1 fix-text3">
+                                                Nhiều cuộc gọi nhờ người tố CSGT Tân Sơn Nhất đòi 6,2 triệu rút đơn 
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 mb-4 pb-2">
+                                        <div class="mx-n1">
+                                            <p class="overflow-hidden position-relative mb-0 col-5 col-md-12 px-0">
+                                                <a href="" class="thumb-5x3 thumb-item">
+                                                    <img src="images/Rectangle 63.png" alt="">
+                                                </a>
+                                                <span class="position-absolute text-white play-button d-flex justify-content-between align-items-center">
+                                                    <span class="mx-auto">&#9655;</span>
+                                                </span>
+                                                <span class="position-absolute fixed-bottom">
+                                                    <span class="fs-14 float-right px-1 text-white bg-opacity">1:30</span>
+                                                </span>
+                                            </p>
+                                            <a href="" class="fs-15 font-weight-bold d-block pt-md-2  col-7 col-md-12 px-md-0 pr-0 pb-1 fix-text3">
+                                                Nhiều cuộc gọi nhờ người tố CSGT Tân Sơn Nhất đòi 6,2 triệu rút đơn 
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 mb-4 pb-2">
+                                        <div class="mx-n1">
+                                            <p class="overflow-hidden position-relative mb-0 col-5 col-md-12 px-0">
+                                                <a href="" class="thumb-5x3 thumb-item">
+                                                    <img src="images/Rectangle 65 (1).png" alt="">
+                                                </a>
+                                                <span class="position-absolute text-white play-button d-flex justify-content-between align-items-center">
+                                                    <span class="mx-auto">&#9655;</span>
+                                                </span>
+                                                <span class="position-absolute fixed-bottom">
+                                                    <span class="fs-14 float-right px-1 text-white bg-opacity">1:30</span>
+                                                </span>
+                                            </p>
+                                            <a href="" class="fs-15 font-weight-bold d-block pt-md-2  col-7 col-md-12 px-md-0 pr-0 pb-1 fix-text3">
+                                                Nhiều cuộc gọi nhờ người tố CSGT Tân Sơn Nhất đòi 6,2 triệu rút đơn 
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 mb-4 pb-2">
+                                        <div class="mx-n1">
+                                            <p class="overflow-hidden position-relative mb-0 col-5 col-md-12 px-0">
+                                                <a href="" class="thumb-5x3 thumb-item">
+                                                    <img src="images/Rectangle 65.png" alt="">
+                                                </a>
+                                                <span class="position-absolute text-white play-button d-flex justify-content-between align-items-center">
+                                                    <span class="mx-auto">&#9655;</span>
+                                                </span>
+                                                <span class="position-absolute fixed-bottom">
+                                                    <span class="fs-14 float-right px-1 text-white bg-opacity">1:30</span>
+                                                </span>
+                                            </p>
+                                            <a href="" class="fs-15 font-weight-bold d-block pt-md-2 col-7 col-md-12 px-md-0 pr-0 pb-1 fix-text3">
+                                                HLV Team Flash: 'Chúng tôi sẽ xem Á quân năm nay thi đấu như thế nào'
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-news-aside">
+                                <div class="col-12 px-0">
+                                    <a href="" class="d-block"><img src="images/image 77.png" class="thumb" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+        </div>
+        <div class="position-relative" style="background: linear-gradient(180deg, #2F9CEE 0%, #151EBB 100%);
+transform: matrix(1, 0, 0, -1, 0, 0);">
+            <div class="position-absolute w-100 h-100" style="transform: matrix(1, 0, 0, -1, 0, 0)">
+                <img src="images/icon/XMLID 1.svg" alt="">
+            </div>
+              <div class="w-1080 px-3 px-xl-0 mx-auto pt-4" style="transform: matrix(1, 0, 0, -1, 0, 0)">
+<!--
+                  <div class="d-flex align-items-center py-3 flex-wrap">
+                      <h2 class="text-uppercase font-weight-bold d-flex text-white"><div class="section-title_white mr-2"></div>multimedia</h2>
+                      <div class="d-md-flex d-none align-items-center pl-xl-3 fs-18 flex-wrap">
+                          <a href="" class="px-2">Sản phẩm </a>
+                          &#10072;
+                          <a href="" class="px-2 ">Ứng dụng</a>
+                          &#10072;
+                          <a href="" class="px-2 ">Diễn đàn khoa học</a>
+                      </div>
+                  </div>
+-->
+                  <div class="d-flex align-items-center pb-3 flex-wrap position-relative overflow-hidden ">
+                          <h3 class="text-uppercase px-3 px-md-0 d-flex text-white col-4"><div class="section-title_white mr-2"></div>ĐỜI SỐNG</h3>
+                            <div class="svg-grid position-absolute w-100">
+                              <svg style="stroke:#00C2FF">
+                                <polyline points="0 40, 120 40, 150 18, 220 18, 250 40, 978 40 "></polyline>
+                              </svg>
+                            </div>
+                              <div class="d-md-flex d-none align-items-center pl-xl-4 fs-18 flex-wrap  ">
+                                  <a href="" class="pl-4 text-white pr-2">Bạn gái game thủ </a>
+                                  <a href="" class="pl-4 text-white pr-2">Góc bàn tán</a>
+                                  <a href="" class="pl-4 text-white pr-2">Bí kíp của nhau</a>
+                                  <a href="" class="pl-4 text-white pr-2">góc đốn tim</a>
+                              </div>
+                        </div>
+                  <div class="row pt-2 mt-1">
+					<div class="col-lg-6 col-12 pr-5">
+						<div class="pr-3 mr-md-n1">
+							<div class="card border-0 card-col6 bg-transparent">
+								<div class="card border-0 card-col6 position-relative ">
+								<p class="overflow-hidden position-relative mb-0 col-5 col-md-12 px-0">
+                            <a href="" class="thumb-item thumb-5x3">
+                                <img src="images/Rectangle 92.jpg" class="" alt="...">
+                            </a>
+                              <span class="position-absolute text-white play-button d-flex justify-content-between align-items-center p-2">
+                                  <span class="mx-auto d-flex align-items-center"><img src="images/icon/picture-icon.svg" alt=""></span>
+                              </span>
+                          </p>
+							</div>
+                            <div class="card-body px-0 py-3 px-3 px-md-0">
+				            	<a href=""><h4 class="card-title fix-text3 mb-sm-0 text-white pb-3">Nhân chứng kể phút giải cứu học sinh bị cây phượng đè ở TP.HCM</h4></a>
+				                <p class="fs-16 text-white">Chiều tối 25/5, hàng nghìn phương tiện ở TP.HCM chen chúc, nhích từng mét dưới cơn mưa nặng hạt.</p>
+                            </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-12 ml-md-n5 pr-md-0">
+						<div class="row mr-n5">
+							<div class="col-12 col-md-6 pb-3 pb-md-0">
+								<div class="mini-news bg-transparent d-flex flex-wrap border-left-opacity">
+									<p class="overflow-hidden position-relative mb-0 col-5 col-md-12 px-0">
+                                        <a href="" class="thumb-item thumb-5x3">
+                                            <img src="https://znews-photo.zadn.vn/w480/Uploaded/ofh_hmzpgazs/2020_05_14/96823972_546126216275170_7247665300915617792_n.jpg" class="" alt="...">
+                                        </a>
+                                          <span class="position-absolute text-white play-button d-flex justify-content-between align-items-center p-2">
+                                              <span class="mx-auto d-flex align-items-center"><img src="images/icon/play-button.svg" alt=""></span>
+                                          </span>
+                                      </p>
+									<div class="card-body px-0 pb-0 pt-2 col-7 col-md-12">
+										<a href=""><h5 class="card-title fix-text3 fs-16 text-white">Hủy diệt đối thủ, IGP vượt một cửa để gặp Team Flash tại chung kết</h5></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-6 pb-3 pb-md-0">
+								<div class=" mini-news bg-transparent d-flex flex-wrap border-left-opacity">
+									<p class="overflow-hidden position-relative mb-0 col-5 col-md-12 px-md-0">
+                                        <a href="" class="thumb-item thumb-5x3">
+                                            <img src="images/Rectangle 53 (1).png" class="" alt="...">
+                                        </a>
+                                    </p>
+									<div class="card-body px-0 pb-0 pt-2 col-7 col-md-12">
+										<a href=""><h5 class="card-title fix-text3 fs-16 text-white">Streamer Việt đánh giá cao game Call of Duty: Mobile VN </h5></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-6 pb-3 pb-md-0">
+								<div class="mini-news bg-transparent d-flex flex-wrap border-left-opacity">
+									<p class="overflow-hidden position-relative mb-0 col-5 col-md-12 px-md-0">
+                                        <a href="" class="thumb-item thumb-5x3">
+                                            <img src="images/Rectangle 65 (2).png" class="" alt="...">
+                                        </a>
+                                    </p>
+									<div class="card-body px-0 pb-0 pt-2 col-7 col-md-12">
+										<a href=""><h5 class="card-title fix-text3 fs-16 text-white">Học online, sinh viên cảnh sát được giao bài tập về nhà kỳ lạ</h5></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-6 pb-3 pb-md-0">
+								<div class="mini-news bg-transparent d-flex flex-wrap border-left-opacity">
+									<p class="overflow-hidden position-relative mb-0 col-5 col-md-12 px-md-0">
+                                        <a href="" class="thumb-item thumb-5x3">
+                                            <img src="https://znews-photo.zadn.vn/w210/Uploaded/rgtgtn/2020_05_26/xuat_khau_tom637259941490912537.jpg" class="" alt="...">
+                                        </a>
+                                    </p>
+									<div class="card-body px-0 pb-0 pt-2 col-7 col-md-12">
+										<a href=""><h5 class="card-title fix-text3 fs-16 text-white">Những game di động đang kiếm bộn tiền mùa dịch </h5></a>
+									</div>
+								</div>
+							</div>
+<!--
+                            <div class="col-12 col-md-6 pb-3 pb-md-0">
+								<div class=" border-0 mini-news bg-transparent d-flex flex-wrap">
+									<p class="overflow-hidden position-relative mb-0 col-5 col-md-12 px-md-0">
+                                        <a href="" class="thumb-item thumb-5x3">
+                                            <img src="https://znews-photo.zadn.vn/w210/Uploaded/rgtgtn/2020_05_26/xuat_khau_tom637259941490912537.jpg" class="" alt="...">
+                                        </a>
+                                    </p>
+									<div class="card-body px-0 pb-0 pt-2 col-7 col-md-12">
+										<a href=""><h5 class="card-title fix-text3 fs-16 text-white">.  adasd asdas da sdadad a da sd â error.</h5></a>
+									</div>
+								</div>
+							</div>
+-->
+						</div>
+					</div>
+				</div>
+				  
+                
+			</div>
+             
+        </div> 
+         
+         
+        
+        <div class="row bg-white">
+              <div class="w-1080 mx-auto">
+				
+				
+			</div>
+            <div class="w-100 bg-white">
+              <div class="w-1080 mx-auto pt-xl-4 pb-lg-2 px-xl-0 px-3">
+                  <div class="d-flex align-items-center pb-3 flex-wrap position-relative overflow-hidden ">
+                      <h3 class="text-uppercase px-3 px-md-0 d-flex text-orange  font-weight-bold col-4"><div class="section-title mr-2"></div>ESPORTS</h3>
+                        <div class="svg-grid position-absolute w-100">
+                          <svg>
+                            <polyline points="0 40, 120 40, 150 18, 220 18, 250 40, 978 40 "></polyline>
+                          </svg>
+                        </div>
+                    </div>
+                  <div class="d-flex flex-wrap justify-content-between px-3">
+                      <div class="row pt-1">
+				    <div class="col-md-6 pl-0">
+                        <div class="card border-0 card-col6 bg-transparent">
+								<p class="position-relative overflow-hidden ">
+                                    <a href="" class="thumb-5x3 thumb-item ">
+                                        <img src="https://znews-photo.zadn.vn/w480/Uploaded/lce_jwquc/2020_05_22/Bo_truong_Nguyen_Manh_Hung.jpg" class="thumb" alt="...">
+                                    </a>
+                                </p>
+								<div class="card-body px-0 py-3 ">
+                                    <a href=""><h4 class="card-title fix-text3 mb-sm-0 text-dark pb-md-3 pb-0">Nhân chứng kể phút giải cứu học sinh bị cây phượng đè ở TP.HCM</h4></a>
+                                    <p class="fs-13">Chiều tối 25/5, hàng nghìn phương tiện ở TP.HCM chen chúc, nhích từng mét dưới cơn mưa nặng hạt.</p>
+                                </div>
+							</div>
+                    </div>
+                    <div class="col-md-6 aside-news pr-0">
+                        <div class="article-news d-flex pb-3 mb-3">
+                            <div class="col-5 pl-0 pr-2 border-right border-white">
+                                <p class="overflow-hidden position-relative mb-0 pr-2 border-right border-white">
+                                    <a href="" class="thumb-item thumb-5x3">
+                                        <img src="images/Rectangle 53.png" class="" alt="...">
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="col-7 pr-0 pl-1 ">
+                                <p class="fix-text3 pt-2"><a href="" class="fs-20 font-weight-bold ">Đại diện VN giành top 7 giải PUBG Mobile Đông Nam Á</a></p>
+                            </div>
+                        </div>
+                        <div class="article-news d-flex pb-3 mb-3">
+                            <div class="col-5 pl-0 pr-2 border-right border-white">
+                                <p class="overflow-hidden position-relative mb-0 pr-2 border-right border-white">
+                                    <a href="" class="thumb-item thumb-5x3">
+                                        <img src="images/Rectangle 63.png" class="" alt="...">
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="col-7 pr-0 pl-1">
+                                <p class="fix-text3 pt-2"><a href="" class="fs-20 font-weight-bold ">TFTactics đang kìm hãm sức sáng tạo của game thủ Đấu Trường Chân Lý?</a></p>
+                            </div>
+                        </div>
+                        <div class="article-news d-flex pb-3 mb-3">
+                            <div class="col-5 pl-0 pr-2 border-right border-white">
+                                <p class="overflow-hidden position-relative mb-0 pr-2 border-right border-white">
+                                    <a href="" class="thumb-item thumb-5x3">
+                                        <img src="images/Rectangle 65 (2).png" class="" alt="...">
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="col-7 pr-0 pl-1">
+                                <p class="fix-text3 pt-2"><a href="" class="fs-20 font-weight-bold ">Streamer xinh đẹp bị tẩy chay vì đòi tiền người xem giữa mùa dịch </a></p>
+                            </div>
+                        </div>
+                    </div>
+			    </div>
+                  <div class="col-6 row px-0">
+                      <div class="d-flex align-items-center pb-3 flex-wrap position-relative overflow-hidden w-100">
+                          <h3 class="text-uppercase px-3 px-md-0 d-flex text-orange  font-weight-bold col-4"><div class="section-title mr-2"></div>Sự kiện</h3>
+                            <div class="svg-grid position-absolute w-100">
+                              <svg>
+                                <polyline points="0 40, 120 40, 150 18, 220 18, 250 40, 978 40 "></polyline>
+                              </svg>
+                            </div>
+                        </div>
+                      <div class="row">
+                          <div class="col-md-12 aside-news pt-1">
+                            <div class="article-news pb-3 mb-3">
+                                    <p class="position-relative overflow-hidden ">
+                                        <a href="" class="thumb-5x3 thumb-item ">
+                                            <img src="https://znews-photo.zadn.vn/w480/Uploaded/lce_jwquc/2020_05_22/Bo_truong_Nguyen_Manh_Hung.jpg" class="thumb" alt="...">
+                                        </a>
+                                    </p>
+                                    <div class="card-body px-0 pt-2 pb-0">
+                                        <a href=""><h4 class="card-title fix-text3 mb-sm-0 text-dark pb-md-3 pb-0">Nhân chứng kể phút giải cứu học sinh bị cây phượng đè ở TP.HCM</h4></a>
+                                        <p class="d-flex align-items-center fs-14 text-secondary pb-xl-2 pb-lg-2 pb-md-2 pb-2"><a href="" class="text-danger ">Sự kiện</a><span class="px-2">🞄</span><span> 18:55</span></p>
+                                        <p class="fs-13">Chiều tối 25/5, hàng nghìn phương tiện ở TP.HCM chen chúc, nhích từng mét dưới cơn mưa nặng hạt.</p>
+                                    </div>
+                                </div>
+                              <div class="article-news d-flex pb-3 mb-3">
+                                    <div class="col-5 pl-0 pr-2 border-right border-white">
+                                        <p class="overflow-hidden position-relative mb-0 pr-2 border-right border-white">
+                                            <a href="" class="thumb-item thumb-5x3">
+                                                <img src="images/Rectangle 53.png" class="" alt="...">
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <div class="col-7 pr-0 pl-1">
+                                        <p class="fix-text3"><a href="" class="fs-14 font-weight-bold ">Những game di động đang kiếm bộn tiền mùa dịch</a></p>
+                                    </div>
+                                </div>
+                              <div class="article-news d-flex pb-3 mb-3">
+                                    <div class="col-5 pl-0 pr-2 border-right border-white">
+                                        <p class="overflow-hidden position-relative mb-0 pr-2 border-right border-white">
+                                            <a href="" class="thumb-item thumb-5x3">
+                                                <img src="images/Rectangle 53.png" class="" alt="...">
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <div class="col-7 pr-0 pl-1">
+                                        <p class="fix-text3"><a href="" class="fs-14 font-weight-bold ">Trận đấu Liên Minh Huyền Thoại điên rồ nhất 2020</a></p>
+                                    </div>
+                                </div>
+                              <div class="article-news d-flex pb-3 mb-3">
+                                    <div class="col-5 pl-0 pr-2 border-right border-white">
+                                        <p class="overflow-hidden position-relative mb-0 pr-2 border-right border-white">
+                                            <a href="" class="thumb-item thumb-5x3">
+                                                <img src="images/Rectangle 53.png" class="" alt="...">
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <div class="col-7 pr-0 pl-1">
+                                        <p class="fix-text3"><a href="" class="fs-14 font-weight-bold ">VCS kết thúc tuần đầu tiên giữa dịch bệnh căng thẳng</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                      </div>
+                  </div>
+                  <div class="col-6 row px-0">
+                      <div class="d-flex align-items-center pb-3 flex-wrap position-relative overflow-hidden w-100">
+                          <h3 class="text-uppercase px-3 px-md-0 d-flex text-orange  font-weight-bold col-4"><div class="section-title mr-2"></div>SHOP</h3>
+                            <div class="svg-grid position-absolute w-100">
+                              <svg>
+                                <polyline points="0 40, 120 40, 150 18, 220 18, 250 40, 978 40 "></polyline>
+                              </svg>
+                            </div>
+                        </div>
+                      <div class="row">
+                          <div class="col-md-12 aside-news pt-1">
+                            <div class="article-news pb-3 mb-3">
+                                    <p class="position-relative overflow-hidden ">
+                                        <a href="" class="thumb-5x3 thumb-item ">
+                                            <img src="https://znews-photo.zadn.vn/w480/Uploaded/lce_jwquc/2020_05_22/Bo_truong_Nguyen_Manh_Hung.jpg" class="thumb" alt="...">
+                                        </a>
+                                    </p>
+                                    <div class="card-body px-0 pt-2 pb-0">
+                                        <a href=""><h4 class="card-title fix-text3 mb-sm-0 text-dark pb-md-3 pb-0">Nhân chứng kể phút giải cứu học sinh bị cây phượng đè ở TP.HCM</h4></a>
+                                        <p class="d-flex align-items-center fs-14 text-secondary pb-xl-2 pb-lg-2 pb-md-2 pb-2"><a href="" class="text-danger ">Sự kiện</a><span class="px-2">🞄</span><span> 18:55</span></p>
+                                        <p class="fs-13">Chiều tối 25/5, hàng nghìn phương tiện ở TP.HCM chen chúc, nhích từng mét dưới cơn mưa nặng hạt.</p>
+                                    </div>
+                                </div>
+                              <div class="article-news d-flex pb-3 mb-3">
+                                    <div class="col-5 pl-0 pr-2 border-right border-white">
+                                        <p class="overflow-hidden position-relative mb-0 pr-2 border-right border-white">
+                                            <a href="" class="thumb-item thumb-5x3">
+                                                <img src="images/Rectangle 53.png" class="" alt="...">
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <div class="col-7 pr-0 pl-1">
+                                        <p class="fix-text3"><a href="" class="fs-14 font-weight-bold ">GAM eSports công bố đội hình toàn sao nhưng vắng Zeros</a></p>
+                                    </div>
+                                </div>
+                              <div class="article-news d-flex pb-3 mb-3">
+                                    <div class="col-5 pl-0 pr-2 border-right border-white">
+                                        <p class="overflow-hidden position-relative mb-0 pr-2 border-right border-white">
+                                            <a href="" class="thumb-item thumb-5x3">
+                                                <img src="images/Rectangle 53.png" class="" alt="...">
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <div class="col-7 pr-0 pl-1">
+                                        <p class="fix-text3"><a href="" class="fs-14 font-weight-bold ">Trận đấu liên quân mobile lâu nhất 2020 asd asdas dá da sda da da sda asd á d </a></p>
+                                    </div>
+                                </div>
+                              <div class="article-news d-flex pb-3 mb-3">
+                                    <div class="col-5 pl-0 pr-2 border-right border-white">
+                                        <p class="overflow-hidden position-relative mb-0 pr-2 border-right border-white">
+                                            <a href="" class="thumb-item thumb-5x3">
+                                                <img src="images/Rectangle 53.png" class="" alt="...">
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <div class="col-7 pr-0 pl-1">
+                                        <p class="fix-text3"><a href="" class="fs-14 font-weight-bold ">Trận đấu liên quân mobile lâu nhất 2020 asd asdas dá da sda da da sda asd á d </a></p>
+                                    </div>
+                                </div>
+                            </div>
+                      </div>
+                  </div>
+                  </div>
+				<div class="w-100 line-dash text-white fs-10 ">'</div>
+                  
+			</div>
+             
+        </div>
+        </div>
+        <div class="w-1080 mx-auto ">
+            <div class="d-flex align-items-center pb-4 flex-wrap position-relative overflow-hidden mt-3">
+                      <h3 class="text-uppercase px-3 px-md-0 d-flex text-orange  font-weight-bold col-4"><div class="section-title mr-2"></div>thư viện</h3>
+                        <div class="svg-grid position-absolute w-100">
+                          <svg>
+                            <polyline points="0 40, 120 40, 150 18, 220 18, 250 40, 978 40 "></polyline>
+                          </svg>
+                        </div>
+                    </div>
+        </div>
+        <div class="owl-carousel owl-theme owl-loaded position-relative mb-5">
+    <div class="owl-stage-outer">
+        <div class="owl-stage">
+            <div class="owl-item">
+                <div class="">
+                    <img src="images/Rectangle 53 (1).png" alt="">    
+                </div>
+            </div>
+            <div class="owl-item">
+                <div class="">
+                    <img src="images/Rectangle 63.png" alt="">    
+                </div>
+            </div>
+            <div class="owl-item">
+                <div class="">
+                    <img src="images/Rectangle 53 (1).png" alt="">    
+                </div>
+            </div>
+            <div class="owl-item">
+                <div class="">
+                    <img src="images/Rectangle 38 (1).png" alt="">    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="owl-nav owl-nav_custom position-absolute d-flex w-100 justify-content-between px-5">
+        <button class="customNextBtn"><i class="fas fa-chevron-left text-white fs-25"></i></button>
+        <button class="customPrevBtn"><i class="fas fa-chevron-right text-white fs-25"></i></button>
+    </div>
+</div>
+	</article>
+	<footer>   
+		<div class="w-100 py-2" style="background-color: black">
+            <div class="w-1080 mx-auto py-1 d-flex">
+                <div class="col-1 px-0">
+                    <div class="mx-n1">
+                        <img src="images/icon/Group (1).svg" alt="">
+                    </div>
+                </div>
+                <div class="col-2 px-0 fs-14 offset-2 text-white my-auto">® meGame giữ bản quyền nội dung trên website này</div>
+                <div class="col-4 px-0 fs-14 offset-1 text-white my-auto"> Email: <strong>contacts@megame.gg</strong><br>
+Điện thoại:<strong> 099.999.999 (HN) - 099.999.999 (TP HCM)</strong></div>
+                <div class="my-auto d-flex col-2 pr-0 justify-content-end">
+                    <a href=""><i class="fab fa-facebook-f text-white pl-3 pr-1"></i></a>
+                    <a href=""><i class="fab fa-twitter text-white pl-3 pr-1"></i></a>
+                    <a href=""><i class="fab fa-youtube text-white pl-3"></i></a>
+                </div>
+            </div>
+        </div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+            dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+    }
+            
+            
+})
+var owl = $('.owl-carousel');
+owl.owlCarousel();
+// Go to the next item
+$('.customNextBtn').click(function() {
+    owl.trigger('next.owl.carousel');
+})
+// Go to the previous item
+$('.customPrevBtn').click(function() {
+    // With optional speed parameter
+    // Parameters has to be in square bracket '[]'
+    owl.trigger('prev.owl.carousel', [300]);
+})
+    </script>
+</body>
+</html>
